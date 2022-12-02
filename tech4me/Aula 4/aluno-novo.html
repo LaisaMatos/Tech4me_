@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Formulário</title>
+        <style>
+            .t1{color: rgb(45, 2, 124);}
+            button
+        </style>
+    </head>
+    <body>
+        <h1 class="t1">Formulário de envio</h1>
+        <form action="http//localhost:3003/alunos" method="get">
+        <div>
+            <input type="text" name="Nome" placeholder="Nome">
+            <input type="text" name="Idade" placeholder="Idade">
+        </div>
+        <br/>
+        <div>
+            <label>Feminino</label>
+            <input type="radio" name="tipo" value="fem">
+            <label>Masculino</label>
+            <input type="radio" name="tipo" value="masc" required>
+        </div>
+        <br/>
+        <br/>
+        <button type="submit">Matricula</button>
+    </form>
+    </body>
+</html>
