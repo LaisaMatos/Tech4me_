@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DICAS HTML</title>
+    <style>
+        aside {
+        width: 30%;
+        padding-left: 15px;
+        margin-left: 15px;
+        float: right;
+        font-style: normal;
+        background-color: rgb(208, 252, 246);
+        }
+
+        img{
+    position: absolute;
+    left: 60%;
+    top: 98px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <img src="semantica.jpg" alt="">
+    <h1>Dicas HTML</h1>
+
+    <h2>Section:</h2>
+    <dl>
+        <dt>&ltsection&gt;</dt>
+        <dd><code>Usa-se para representar uma seção dentro de um documento.</code></dd>
+    </dl>
+    <p>
+        <section>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, pariatur <br>
+            dicta voluptates magnam libero soluta adipisci ab quaerat, culpa inventore <br>
+            impedit incidunt, reiciendis laboriosam id repellendus dolor. Quae, ducimus doloremque.
+        </section><br>
+        <small>Não é visivel, mas aqui, temos uma seção!</small>
+    </p>
+
+    <h2>Article:</h2>
+    <dt>&ltarticle&gt;</dt>
+    <dd><code>Utiliza-se quando queremos declarar um conteúdo que não precisa de outro.</code></dd>
+        <p>
+            <section>
+                <article>
+                    <h3>Java</h3>
+                    <p>Linguagem de programação utilizada no back-end</p>
+                </article>
+                <article>
+                    <h3>React</h3>
+                    <p>Bibliotaca utilizada no front-end</p>
+                </article>
+            </section>
+            <small>Temos um article com dois conteúdos independentes.</small>
+        </p>
+
+        <h2>Aside</h2>
+        <dt>&ltaside&gt;</dt>
+        <dd><code>Utiliza-se quando precisamos criar um conteúdo de apoio/adicional ao conteúdo principal. <br>
+            Geralmente com apoio do CSS para estilização.</code></dd>
+            <div>
+                    <aside>
+                        <p>Aqui temos um aside estilizado com CSS.</p>
+                    </aside>
+            </div>
+        <h2>Main</h2>
+        <dt>&ltmain&gt;</dt>
+        <dd><code>A tag especifica o conteúdo principal e, consequentemente, de maior relevância dentro da página.</code></dd>
+    </main>
+
+    <br><h1>Material de apoio</h1>
+    <small>Para um melhor entendimento de algumas tags HTML.</small>
+<section>
+    <p>
+    <h2> &ltheader&gt; </h2>
+        O &ltheader&gt; é utilizado para representar o cabeçalho de um documento ou seção declarado no HTML. <br>
+        Nele podemos inserir elementos de &lth1&gt; a &lth6&gt;, até elementos para representar imagens, <br>
+        parágrafos ou mesmo listas de navegação.
+    </p>
+    <br>
+    <p>
+    <h2> &ltsection&gt;</h2>
+        O elemento &ltsection&gt; representa uma seção dentro de um documento e geralmente contém um título, <br>
+        o qual é definido por meio de um dos elementos entre &gth1&gt; e &gth6&gt;. Podemos utilizar o &ltsection&gt;, <br>
+        por exemplo, para descrever as seções/tópicos de um documento.
+    </p>
+    <br>
+    <p>
+    <h2>&ltarticle&gt; </h2>
+        Utilizamos o elemento &ltarticle&gt; quando queremos declarar um conteúdo que não precisa de outro <br>
+        para fazer sentido em um documento HTML, por exemplo, um artigo em um blog. É recomendado identificar <br>
+        cada &ltarticle&gt; com um título.
+    </p>
+    <br>
+    <p>
+    <h2> &ltnav&gt; </h2>
+        O elemento &ltnav&gt; é utilizado quando precisamos representar um agrupamento de links de navegação, que, <br>
+        por sua vez, são criados com os elementos &ltul&gt;, &ltli&gt; e &lta&gt;.
+    </p>
+    <br>
+    <p>
+    <h2> &ltaside&gt; </h2>
+        O elemento &ltaside&gt; é utilizado quando precisamos criar um conteúdo de apoio/adicional ao conteúdo principal. <br>
+        Por exemplo, ao falar de HTML semântico, podemos indicar ao leitor outros conteúdos sobre a linguagem HTML <br>
+        como sugestão de leitura complementar.
+    </p>
+    <br>
+    <p>
+    <h2> &ltmain&gt; </h2>
+        O elemento &ltmain&gt; especifica o conteúdo principal e, consequentemente, de maior relevância dentro da página. <br>
+        Para ser considerada bem construída, uma página deve apresentar apenas um conteúdo principal.
+    </p>
+    <br>
+    <p>
+    <h2> &ltfigure&gt; </h2>
+        O elemento &ltfigure&gt; é uma marcação de uso específico para a inserção de uma figura. Para incluir a descrição <br>
+        dessa figura, podemos utilizar o elemento &ltfigcaption&gt;.
+    </p>
+    <br>
+    <p>
+    <h2> &ltfooter&gt; </h2>
+        O elemento &ltfooter&gt; representa um rodapé de um documento, como a área presente no final de uma página web. <br>
+        Normalmente é utilizado para descrever informações de autoria, como nome e contato do autor, e data de criação do conteúdo.
+    </p>
+    <br>
+    <p>
+    <h2> &lta&gt; </h2>
+        A principal função do elemento &lta&gt; é descrever um link, conectando os diversos documentos de um site e permitindo <br>
+        a navegação por esse conteúdo. Normalmente esses documentos estão relacionados por compartilharem um assunto em comum.
+    </p>
+    <br>
+    <p>
+    <h2> &ltem&gt; </h2>
+        O elemento &ltem&gt; é utilizado quando desejamos enfatizar um trecho ou palavra no texto, indicando que ela <br>
+        contribui de forma mais relevante para o sentido/compreensão do conteúdo.
+    </p>
+    <br>
+    <p>
+    <h2> &ltstrong&gt; </h2>
+        O elemento &ltstrong&gt; também é utilizado para destacar uma parte do texto. Sua principal diferença em relação ao elemento <br>
+        &ltem&gt; é que &ltem&gt; pode alterar o propósito de uma frase, como vimos anteriormente.
+    </p>
+    <br>
+    <p>
+    <h2> &ltcite&gt; & &ltq&gt; </h2>
+        O elemnto &ltcite&gt; é utilizado para declarar que naquele trecho há uma citação, isto é, um trecho de texto que não foi escrito <br>
+        pelo autor do conteúdo. Normalmente utiliza-se o &ltcite&gt; em conjunto com o elemento &ltq&gt;, responsável por apresentar o conteúdo retirado de outra fonte.
+    </p>
+</section>
+</body>
+</body>
+</html>
