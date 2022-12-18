@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 47, 47);
+}
+
+header, footer{
+    display: flex;
+    justify-content: center;
+    height: 12vh;
+    text-align: center;
+    background: linear-gradient(pink, violet);
+    color:aliceblue
+}
+
+small{
+    margin: 3px;
+    color: rgb(75, 74, 74);
+}
+
+.img2{
+    margin: 3px;
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+#principal{
+    display: flex;
+    width: 1302px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.img{
+    width: 700px;
+    height: 400px;
+}
+
+figcaption{
+    margin: 0px 0px 0px 10px;
+}
+
+a{
+    color: pink;
+    text-decoration: none;
+    font-weight: bold;
+}
