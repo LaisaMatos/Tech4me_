@@ -1,0 +1,114 @@
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start
+}   
+
+.enquete{
+    background-color: violet;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+     /*Animação*/
+    animation-name: churrasco;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-direction: forwards;
+    animation-play-state: running;
+}
+
+@keyframes churrasco {
+from {
+    width: 100px;
+}
+
+to {
+    width: 550px;
+}
+    }
+
+strong {
+    font-size: 20px;
+}
+
+.nova{
+    /*Animação*/
+    animation-name: enquete2;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-direction: forwards;
+    animation-play-state: running;
+
+}
+
+ @keyframes enquete2 {
+from {
+    width: 100px;
+}
+
+to {
+    width: 250px;
+}
+    }
+
+        
+.nova2{
+    /*Animação*/
+    animation-name: enquete3;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-direction: forwards;
+    animation-play-state: running;
+
+}
+
+ @keyframes enquete3 {
+from {
+    width: 100px;
+}
+
+to {
+    width: 350px;
+}
+    }
+
+        
+.nova3{
+    /*Animação*/
+    animation-name: enquete4;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-direction: forwards;
+    animation-play-state: running;
+
+}
+
+ @keyframes enquete4 {
+from {
+    width: 100px;
+}
+
+to {
+    width: 450px;
+}
+    }
+
+strong {
+    font-size: 20px;
+}

@@ -1,0 +1,32 @@
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+    background-color: violet;
+    padding: 5px;
+}
+
+.caixa {
+    background-color: yellow;
+    width: 100px;
+    margin: 10px;
+}
+
+.conteiner2 {
+    display: flex;
+    height: 150px;
+    background-color: violet;
+    margin-top: 10px;
+}
+
+.nova {
+    flex-grow: 2;
+}
+
+.nova2 {
+    flex-grow: 1;
+}
