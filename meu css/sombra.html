@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombra</title>
+    <style>
+        #sombra{
+            text-shadow: 2px 2px 2px pink;
+        }
+
+        #diferente{
+            /* horizontal | vertical | desfoque | cor */
+            text-shadow: 2px 40px 1px cyan;
+        }
+
+        .sombra{
+            /* horizontal | vertical | desfoque | propagação | cor */
+            box-shadow: 30px 20px 0px 5px palegreen;
+            width: 100px;
+            height: 100px;
+        }
+
+        .diferent{
+            width: 100px;
+            height: 100px;
+            box-shadow: -10px 5px 5px 5px purple;
+            border-bottom-left-radius: 10px;
+        }
+        
+        #opacidade{
+            /* opacity define a transparencia de um elemento, indo de 0 a 1.*/
+            opacity: 0.5;
+        }
+
+        .diferente{
+            /* border-radius define o arredondamento, podendo ser definida em cada lateral.*/
+            border-radius: 10px 2px;
+            width: 100px;
+            height: 100px;
+            box-shadow: 5px 5px 5px 5px plum;
+            margin: 20px;
+            border: 2px solid lime;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 id="sombra">Lorem, ipsum.</h1> 
+    <br>
+    <h2 id="opacidade">Lorem, ipsum.</h2>
+    <h1 id="diferente">Lorem, ipsum.</h1>
+<br><br><br><br>
+    <div class="sombra">
+        <p>
+        
+        </p>
+    </div>
+    <br><br><br><br>
+    <div class="diferent">
+        <p>
+
+        </p>
+    </div>
+    <br>
+</div>
+<br><br><br><br>
+<div class="diferente">
+    <p>
+
+    </p>
+</div>
+</body>
+</html>

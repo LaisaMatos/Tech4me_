@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transições e Transformações</title>
+    <style>
+        h1,h2{
+            color: pink;
+        }
+
+        #redondo{
+            margin: 30px;
+            width: 200px;
+            height: 200px;
+            background-color: plum;
+            border-right: 20px solid powderblue;
+            border-radius: 50%;
+        }
+        .caixa{
+            width: 100px;
+            height: 100px;
+            background-color: gold;
+            position: sticky;
+            top: 10px;
+            left: 150px;
+            transform: rotate(45deg);
+        }
+
+        #desligar{
+            width: 30px;
+            height: 30px;
+            background-color: rgb(255, 160, 160);
+            border-radius: 42%;
+            transform: scale(1.2, 1);
+            padding-left: 2px;
+            margin: 40px;
+            position: relative;
+        }
+        .tel{
+            transform: rotate(135deg);
+        }
+
+        .desligar:hover{
+            width: 50px;
+            transition: width 6s;
+        }
+
+        div.b {
+        width: 150px;
+        height: 80px;
+        background-color: rgb(105, 235, 163);
+        -ms-transform: skewY(20deg);
+        transform: skewY(20deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>Transições e Transformações</h1>
+    <br>
+    <h2>
+
+    </h2>
+    <br></br>
+    <div id="redondo"></div>
+    <br>
+    <div>
+        <div class="caixa"></div>
+    </div>
+
+    <div id="desligar meio"><div class="tel">📞</div></div>
+
+    <div class="b">Hello World!</div>
+</body>
+</html>
