@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?display=swap');
+
+        body{
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(aquamarine, aqua);
+        }
+        .content{
+            display: flex;
+            align-items: baseline;
+            margin-left: 20px;
+            margin-top: 50px;
+        }
+
+        .card{
+            width: 450px;
+            background-color: #FFF;
+            border-radius: 20px;
+            box-shadow: 0px 2px 23px #26395338;
+            transition: all 0.3s ease-out;
+        }
+
+        .card:hover {
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
+        .mediacard{
+            background: url(https://th.bing.com/th/id/R.4dc293be7b3193b9b6b32c11ebd83956?rik=%2bCv7PkIfDrGm0w&pid=ImgRaw&r=0) center/cover;
+            height: 250px;
+            width: 100%;
+        }
+
+        .title{
+            color: #2b3d59;
+        }
+
+        .secondtext{
+            color: #0c0a5f38;
+        }
+
+        .bottomtext{
+            color:  #221e46;
+        }
+        .topcard{
+            padding: 20px;
+            padding-top: 0px;
+        }
+
+        .bottomcard{
+            padding: 20px;
+        }
+
+        .actions{
+            background:none;
+            border: none;
+            color: purple;
+        }
+
+        .animaçao{
+            background-color: transparent;
+            width: 20px;
+            height: 50px;
+            position: absolute;
+            left: 1150px;
+            /*Animando*/
+            animation-name: primeira;
+            animation-duration: 0.7s;
+            animation-iteration-count: infinite;
+            animation-direction: forwards;
+            animation-play-state: running;
+        }
+
+        @keyframes primeira {
+            from {
+                width: 20px;;
+            }
+
+            to {
+                width: 50px;
+            }
+        }
+
+         
+        .c{
+            padding: 6px 20px;
+            font-family: Verdana, Tahoma, sans-serif;
+            font-size: 13;
+            text-transform: uppercase;
+            width: 100px;
+            height: 35px;
+            border: 1px solid plum;
+            border-radius: 8px;
+            background-color: pink;
+            background: -webkit-linear-gradient(top, plum, pink);
+            color: white;
+            text-shadow: 1px 1px 0 #666;
+            box-shadow: inset 0 1px 1px #fff, 0 2px 3px rgb(75, 75, 75);
+            cursor:pointer;
+            position: absolute;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="card">
+            <div class="topcard">
+                <h2 class="title">Brigadeiro Tradicional</h2>
+                <span class="secondtext">Brigadeiro Tradiconal Gourmet</span>
+            </div>
+            <div class="mediacard"></div>
+            <div class="bottomcard">
+            <p class="bottomtext">Conhecido como um dos queridinhos, o brigadeiro tradicional é um dos doces
+            mais amados pelas crianças e adultos. Nosso brigadeiro é um dos mais famosos
+            do país, com um sabor marcante e uma textura perfeita.</p>
+            <div class="actionscard">
+                <h5 class="actions">Entrega Grátis</h5>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <img class="animaçao" src="https://th.bing.com/th/id/R.6d1955c199927bfcb420fc5532f7ffac?rik=Re5texyDVT1Rng&pid=ImgRaw&r=0" alt="" width="20px" height="20px">
+    <a href=""><button class="c">Comprar</button></a>
+</body>
+</html>

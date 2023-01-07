@@ -1,0 +1,16 @@
+header h1{
+    color: red;
+   }
+   
+   header h2{
+    color: blue;
+   }
+   
+   article {
+    height: 400px;
+    margin: 0 auto;
+   }
+   
+   footer p{
+    font-style: italic;
+   }

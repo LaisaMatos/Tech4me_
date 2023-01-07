@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Rubik+80s+Fade&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2? família=Merriweather:wght@900&família=Rubik+80s+Fade&display=swap');
+        body{
+            background-color: powderblue;
+        }
+
+        #logo{
+            color: rgb(24, 81, 88);
+            font-family: 'Merriweather', serif;
+            text-transform: uppercase;
+            /*Horizontal | Vertical | Desfoque | Cor*/
+            text-shadow: 3px 2px 3px rgb(177, 176, 176);
+        }
+
+        h1::first-letter{
+            color: rgb(91, 250, 91);
+        }
+        
+        #botao{
+            padding: 6px 20px;
+            font-family: Verdana, Tahoma, sans-serif;
+            font-size: 13;
+            text-transform: uppercase;
+            width: 100px;
+            height: 35px;
+            border: 1px solid plum;
+            border-radius: 8px;
+            background-color: pink;
+            background: -webkit-linear-gradient(top, plum, pink);
+            color: white;
+            text-shadow: 1px 1px 0 #666;
+            box-shadow: inset 0 1px 1px #fff, 0 2px 3px rgb(75, 75, 75);
+            cursor:pointer;
+            position: relative;
+        }
+
+        img{
+            width: 700px;
+            height: 500px;
+        }
+
+        div{
+            display: inline-block; 
+            vertical-align: middle;
+        }
+        #div{
+            margin-left: 60px;
+            margin-top: 70px;
+        }
+
+        p{
+            margin-left: 130px;
+        }
+
+        .container{
+            background-color: paleturquoise;
+            border: 2px paleturquoise;
+            border-radius: 5%;
+        }
+    </style>
+</head>
+<body> 
+    <div class="container">
+    <div id="div">
+        <img src="https://th.bing.com/th/id/R.11a468cc2d484f15f86e5f065394e4e7?rik=eLLFVru3T20RBg&pid=ImgRaw&r=0&sres=1&sresct=1" alt="tortas"/>
+    </div>
+    <div>
+        <p class="logo">
+            <h1 id="logo" style="font-size: 60px;">Tech4Doces</h1> <!--LOGOMARCA-->
+        </p>
+        <p>
+      <a href="http://127.0.0.1:5500/meu%20css/loja-doces/vitrine.html"><button id="botao">Vitrine</button></a>
+        </p>
+    </div>
+    </div>
+</body>
+</html>
